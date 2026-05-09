@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雨辰辰-账号多开助手 - 隐私政策</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+        }
+        .date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .note {
+            background: #fffbe6;
+            padding: 15px;
+            border-left: 4px solid #faad14;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>雨辰辰-账号多开助手 - 隐私政策</h1>
+        <p class="date">生效日期：2026年05月08日</p>
+
+        <h2>1. 信息收集说明</h2>
+        <p>为提供账号多开、标签账号隔离与继承功能，本扩展会收集/处理以下信息：</p>
+        <ul>
+            <li><strong>账号槽位配置信息：</strong>用户创建的账号槽位标识、账号别名（仅用于本地标签与账号的绑定关系管理）</li>
+            <li><strong>标签关联数据：</strong>当前标签页与账号槽位的绑定状态、标签页ID关联信息（仅用于实现标签账号隔离、新标签账号自动继承功能）</li>
+            <li><strong>临时处理数据：</strong>用户主动触发的标签解绑、账号切换操作记录（仅在本地处理，不会上传至服务器）</li>
+        </ul>
+
+        <div class="note">
+            <h3>关于全网站权限（&lt;all_urls&gt;）的重要说明</h3>
+            <p>本扩展的核心功能为<strong>浏览器标签页账号隔离与多开管理</strong>，必须使用全网站权限（&lt;all_urls&gt;），原因如下：</p>
+            <ul>
+                <li>为实现<strong>隔离并切换任意网站的 Cookie</strong>，扩展需要对所有网站的 Cookie 进行读写管理，以在不同标签页之间隔离账号状态，避免账号冲突。</li>
+                <li>为实现<strong>隔离任意网站的 localStorage 数据</strong>，扩展需要向所有网站注入轻量脚本，以在标签页级别隔离本地存储数据，确保多账号环境下的数据互不干扰。</li>
+            </ul>
+            <p>本扩展<strong>不会读取、收集或上传任何用户的 Cookie、localStorage 或个人数据</strong>，仅在用户设备本地对这些数据进行隔离与切换操作，所有数据始终保存在用户设备中。</p>
+        </div>
+
+        <h2>2. 信息使用与存储</h2>
+        <p>我们仅将收集的信息用于以下目的：</p>
+        <ul>
+            <li>为用户提供账号槽位创建、标签与账号绑定/解绑功能，实现浏览器标签页的账号隔离与多开管理。</li>
+            <li>实现新标签页自动继承父标签账号、同账号标签页分组管理的核心功能。</li>
+            <li>对所有网站的 Cookie 和 localStorage 进行本地隔离与切换，以实现多账号环境下的数据隔离，避免账号状态互相干扰。</li>
+            <li>所有账号槽位配置、标签关联数据均仅存储在用户设备本地，不会上传至外部服务器，也不会被开发者获取或记录。</li>
+            <li>保障服务的正常运行、功能维护与故障排查。</li>
+        </ul>
+
+        <h2>3. 第三方服务说明</h2>
+        <p>本扩展不依赖任何第三方接口服务，所有功能均在用户设备本地完成处理，不会向任何第三方发送用户数据。</p>
+
+        <h2>4. 数据安全</h2>
+        <p>我们采取合理的技术措施保护用户本地数据的安全，用户的账号槽位配置、标签关联数据仅保存在浏览器本地存储中，不会被外部访问。但请注意，用户应妥善保管自己的设备，避免数据泄露风险。</p>
+
+        <h2>5. 未成年人使用</h2>
+        <p>本扩展不面向13周岁以下的未成年人提供服务。如您是未成年人，请在监护人的指导下阅读本政策并使用本服务。</p>
+
+        <h2>6. 隐私政策更新</h2>
+        <p>我们可能会根据服务调整或法律法规要求更新本隐私政策，更新后的政策将在本页面发布。用户继续使用本扩展，即视为接受更新后的政策。</p>
+
+        <h2>7. 联系我们</h2>
+        <p>如对本隐私政策有任何疑问或反馈，请通过以下方式联系开发者：</p>
+        <p>GitHub：<a href="https://github.com/xuejsscom/Google-Plugins" target="_blank">https://github.com/xuejsscom/Google-Plugins</a></p>
+    </div>
+</body>
+</html>
